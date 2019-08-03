@@ -1,9 +1,9 @@
 .square{ 
-    background-color: #eee;
-    border:1px solid #eee;
+    background-color: rgb(235, 203, 220);
+    border:1px solid rgb(235,203,220);
     border-radius: 5px;
     text-align:center;
-    
+    margin-left: 5px;
 }
 
 #cake-sizes{display:flex;
@@ -11,13 +11,13 @@
     align-items: center;
 }
 
-#cake-heading{
+#cake-heading,#prices{
     
         width:80%;
         display: block;
         margin:0 auto;
         position: relative;
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
     text-align:center;
 }
@@ -29,14 +29,14 @@
 }
 
 .label{
-    background-color: rgb(190, 186, 189);
+    background-color: rgb(233, 60, 190);
 }
 
 #wa,#call{width: 6%;
     height: 6%;}
 
     #contact-us{
-        background-color:rgb(235, 203, 220);
+        
         text-align:center;}
 
         .details{
@@ -67,15 +67,13 @@ a{text-decoration: none;
     }
 
     h1{
-        font-family: -apple-system, BlinkMacSystemFont, 
-        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-         'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-size:200%;
         position: relative;}
 
         #header{width:100%;
             position: relative;
-            background-color:rgb(190, 186, 189);
+            background-color: rgb(190, 186, 189);
             top:0px;
             left:0px;
             right:0px;
@@ -88,7 +86,7 @@ a{text-decoration: none;
                 right: 0%;
      }
      footer li{
-         margin-top:12px;
+         margin-top:15px;
         float: right;
         padding-right:10px;
         
