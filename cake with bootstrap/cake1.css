@@ -1,0 +1,96 @@
+.square{ 
+    background-color: #eee;
+    border:1px solid #eee;
+    border-radius: 5px;
+    text-align:center;
+    
+}
+
+#cake-sizes{display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cake-heading{
+    
+        width:80%;
+        display: block;
+        margin:0 auto;
+        position: relative;
+    
+    
+    text-align:center;
+}
+
+.fluffy{width:20%;
+    height:80%;
+    padding-right: 5px;
+    
+}
+
+.label{
+    background-color: rgb(190, 186, 189);
+}
+
+#wa,#call{width: 6%;
+    height: 6%;}
+
+    #contact-us{
+        background-color:rgb(235, 203, 220);
+        text-align:center;}
+
+        .details{
+            text-align: left;
+        
+}
+.boxes{
+    display:block;
+    margin:0 auto;
+    position: relative;
+}
+
+#cake-logo{
+    width:15%;
+    height:15%;
+    position: relative;
+}
+
+a{text-decoration: none;
+    color: deeppink;}
+    a:hover{text-decoration: underline;
+    color:purple}
+
+    nav li{
+        font-family: cursive;
+        font-size:26px;
+        float:left;
+    }
+
+    h1{
+        font-family: cursive;
+        font-size:200%;
+        position: relative;}
+
+        #header{width:100%;
+            position: relative;
+            background-color:rgb(190, 186, 189);
+            top:0px;
+            left:0px;
+            right:0px;
+     }
+
+     footer{
+                background-color: rgb(190, 186, 189);
+                position: absolute;
+                left: 0%;
+                right: 0%;
+     }
+     footer li{
+         margin-top:12px;
+        float: right;
+        padding-right:10px;
+        
+        
+    }
+    #p{padding-left: 10px;
+    }
