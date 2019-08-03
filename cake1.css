@@ -1,9 +1,10 @@
 .square{ 
-    background-color: rgb(235, 203, 220);
+    background-color:rgba(235,203,225);
     border:1px solid rgb(235,203,220);
     border-radius: 5px;
     text-align:center;
     margin-left: 5px;
+    box-shadow: 0 10px 15px rgb(235,203,220); 
 }
 
 #cake-sizes{display:flex;
@@ -29,7 +30,7 @@
 }
 
 .label{
-    background-color: rgb(233, 60, 190);
+    background-color:rgb(236, 154, 198);
 }
 
 #wa,#call{width: 6%;
